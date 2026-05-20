@@ -9,7 +9,7 @@ To verify the Implemention of sliding window prtocol.
 5. If your frames reach the server it will send ACK signal to client
 6. Stop the Program
 ## PROGRAM
-'''
+```
 SERVER :
 import socket 
 
@@ -48,7 +48,8 @@ while i < n:
     print("Received:", ack) 
     i += w 
 s.close()
-## OUPUT
+```
+### OUPUT:
 <img width="1896" height="884" alt="Screenshot 2026-05-15 134818" src="https://github.com/user-attachments/assets/c34d8006-7111-49fa-a31d-166582239678" />
 <img width="1846" height="840" alt="Screenshot 2026-05-15 134842" src="https://github.com/user-attachments/assets/befcc848-5a92-4b3e-b3e4-61d13e4d2d09" />
 
